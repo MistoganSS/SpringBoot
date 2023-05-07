@@ -1,0 +1,10 @@
+
+d	java:S106O"9Replace this use of System.out or System.err by a logger.(Š¥ úHƒ2RMAJORZ
+CODE_SMELL
+~
+java:S1192A"PDefine a constant instead of duplicating this literal "vacantes/create" 3 times.(öå®:H„2RCRITICALZ
+CODE_SMELL
+„	java:S116#"TRename this field "PATHROUTE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(à‘µæúÿÿÿÿHˆ2RMINORZ
+CODE_SMELL
+d	java:S106\"9Replace this use of System.out or System.err by a logger.(ÌîH‰2RMAJORZ
+CODE_SMELL

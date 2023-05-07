@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\WINDOWS 10\Documents\Workspace-Sprint-Boot\microservicios-respuestas"/>
+			<item value="C:\Users\WINDOWS 10\Documents\Workspace-Sprint-Boot\microservicios-gateway"/>
+			<item value="C:\Users\WINDOWS 10\Documents\Workspace-Sprint-Boot\microservicios-eureka"/>
+			<item value="C:\Users\WINDOWS 10\Documents\Workspace-Sprint-Boot\microservicios-cursos"/>
+			<item value="C:\Users\WINDOWS 10\Documents\Workspace-Sprint-Boot\commons-examenes"/>
+			<item value="C:\Users\WINDOWS 10\Documents\Workspace-Sprint-Boot\microservicios-examenes"/>
+			<item value="C:\Users\WINDOWS 10\Documents\Workspace-Sprint-Boot\microservicios-usuarios"/>
+			<item value="C:\Users\WINDOWS 10\Documents\Workspace-Sprint-Boot\commons-alumnos\src\main\java\com\formaciondbi\microservicios\commons\alumnos\models\entity\Alumno.java"/>
+			<item value="C:\Users\WINDOWS 10\Documents\Workspace-Sprint-Boot\commons-alumnos"/>
+			<item value="C:\Users\WINDOWS 10\Documents\Workspace-Sprint-Boot\commons-microservicios"/>
+			<item value="C:\Users\WINDOWS 10\Documents\Workspace-Sprint-Boot\empleos"/>
+			<item value="C:\Users\WINDOWS 10\Documents\Workspace-Sprint-Boot\jpa-demo"/>
+			<item value="C:\Users\WINDOWS 10\Documents\Workspace-Sprint-Boot\demo"/>
+			<item value="C:\Users\WINDOWS 10\Documents\Workspace-Sprint-Boot\holMundo"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="667"/>
+		<item key="x" value="720"/>
+		<item key="y" value="71"/>
+	</section>
+</section>

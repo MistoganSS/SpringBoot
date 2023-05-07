@@ -1,0 +1,29 @@
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      default-zone: http://localhost:8761/eureka
+  instance:
+    instance-id: ${spring.application.name}:${random.value}
+logging:
+  level:
+    org:
+      hibernate:
+        SQL: debug
+server:
+  port: ${PORT:${SERVER_PORT:0}}
+spring:
+  application:
+    name: microservicio-cursos
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: jhon
+    url: jdbc:mysql://localhost:3306/db_microservicios_examenes
+    username: root
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    generate-ddl: true
+config:
+  balanceador:
+    test: ${BALANCEADOR_TEST:por defecto}

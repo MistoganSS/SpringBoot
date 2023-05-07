@@ -1,0 +1,5 @@
+
+u
+java:S1206h"PThis class overrides "equals()" and should therefore also override "hashCode()".(ЌЬСгHї8RMINORZBUG
+J
+java:S21164"%Use "Arrays.hashCode(array)" instead.(ЮґэHА8RMAJORZBUG

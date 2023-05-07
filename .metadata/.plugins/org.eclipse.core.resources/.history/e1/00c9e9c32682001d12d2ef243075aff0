@@ -1,0 +1,90 @@
+package net.itinajero;
+
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.data.domain.Sort;
+
+import net.itinajero.model.Categoria;
+import net.itinajero.repository.CategoriasRepository;
+
+@SpringBootApplication
+public class JpaDemoApplication implements CommandLineRunner{
+
+	@Autowired
+	private CategoriasRepository repoCategorias;
+	
+	public static void main(String[] args) {
+		SpringApplication.run(JpaDemoApplication.class, args);
+	}
+
+	@Override
+	public void run(String... args) throws Exception {
+		allData();
+	}
+	
+	private void allData() {
+		/*Iterable<Categoria> categorias= repoCategorias.findAll();
+		for (Categoria item : categorias) {
+			System.out.println(item);
+		}*/
+		/*Usando JPA*/
+		List<Categoria> cat= repoCategorias.findAll(Sort.by("nombre"));
+		for (Categoria item : cat) {
+			System.out.println(item.getId()+" "+item.getNombre());
+		}
+	}
+	
+	private void save() {
+		Categoria cat1= new Categoria();
+		cat1.setNombre("Venta");
+		cat1.setDescripcion("Online o presencial");
+		
+		repoCategorias.save(cat1);
+		System.out.println("categorias: "+cat1);
+	}
+	private void findId() {
+		Optional<Categoria> optional= repoCategorias.findById(1);
+		if(optional.isPresent()) {
+			System.out.println("Categoria"+optional.get());
+		}else {
+			System.out.println("Categoria no encontrada");
+		}
+	}
+	private void findForIds() {
+		List<Integer> ids= new LinkedList<Integer>();
+		ids.add(1);
+		ids.add(4);
+		ids.add(10);
+		Iterable<Categoria> categorias= repoCategorias.findAllById(ids);
+		for (Categoria item : categorias) {
+			System.out.println(item);
+		}
+	}
+	private void update() {
+		Optional<Categoria> optional= repoCategorias.findById(2);
+		if(optional.isPresent()) {
+			Categoria catTmp=optional.get();
+			catTmp.setNombre("Ing. de software");
+			catTmp.setDescripcion("desarrollo de sistemas");
+			repoCategorias.save(catTmp);
+
+		}else {
+			System.out.println("Categoria no encontrada");
+		}
+	}
+	private void allDelete() {
+		
+		//repoCategorias.deleteAll();
+		/**
+		 * Delete usando JPA
+		 */
+		repoCategorias.deleteAllByIdInBatch(null);
+	}
+
+}

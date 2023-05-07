@@ -1,0 +1,1 @@
+INDEX VERSION 1.4+C:\Users\WINDOWS 10\Documents\Workspace-Sprint-Boot\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes

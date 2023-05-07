@@ -1,0 +1,31 @@
+empleoapp:
+  route:
+    images: '"c:/empleos/img-vacantes/"'
+server:
+  port: 8090
+spring:
+  application:
+    name: Empleados
+  data:
+    web:
+      pageable:
+        default-page-size: 5
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: jhon
+    url: jdbc:mysql://localhost:3306/empleosdb?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+    username: root
+  jpa:
+    generate-ddl: false
+    hibernate:
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+    show-sql: true
+  servlet:
+    multipart:
+      enabled: true
+      location: c:/tmp
+      max-file-size: 2MB

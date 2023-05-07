@@ -1,0 +1,11 @@
+
+w
+java:S1192*"IDefine a constant instead of duplicating this literal "vacantes" 3 times.(ÒŠÈiH½1RCRITICALZ
+CODE_SMELL
+i	java:S106H"9Replace this use of System.out or System.err by a logger.(©Èİ¢øÿÿÿÿHÁ1RMAJORZ
+CODE_SMELL
+c	java:S106]"9Replace this use of System.out or System.err by a logger.(É†KHÂ1RMAJORZ
+CODE_SMELL
+\
+java:S1128"1Remove this unused import 'java.util.LinkedList'.(»Äğ1HÃ1RMINORZ
+CODE_SMELL

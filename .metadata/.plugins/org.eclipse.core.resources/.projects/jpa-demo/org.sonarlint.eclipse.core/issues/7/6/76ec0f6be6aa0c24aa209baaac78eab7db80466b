@@ -1,0 +1,109 @@
+
+Š
+java:S2293z"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÇÃ˜åûÿÿÿÿH™0RMINORZ
+CODE_SMELL
+‹
+java:S2293Æ"YReplace the type specification in this constructor call with the diamond operator ("<>").(ü½£ÕüÿÿÿÿH›0RMINORZ
+CODE_SMELL
+v
+java:S11927"GDefine a constant instead of duplicating this literal "item: " 4 times.(ğÅº¹H0RCRITICALZ
+CODE_SMELL
+v
+java:S11927"GDefine a constant instead of duplicating this literal " /**/ " 4 times.(ğÅº¹H¢0RCRITICALZ
+CODE_SMELL
+y
+java:S11925"KDefine a constant instead of duplicating this literal "Cantidad: " 4 times.(ÎÒı@H§0RCRITICALZ
+CODE_SMELL
+c	java:S1065"9Replace this use of System.out or System.err by a logger.(ÎÒı@H¬0RMAJORZ
+CODE_SMELL
+d	java:S1067"9Replace this use of System.out or System.err by a logger.(ğÅº¹H­0RMAJORZ
+CODE_SMELL
+c	java:S106="9Replace this use of System.out or System.err by a logger.(ÎÒı@H®0RMAJORZ
+CODE_SMELL
+i	java:S106?"9Replace this use of System.out or System.err by a logger.(³¯ŒàÿÿÿÿÿH¯0RMAJORZ
+CODE_SMELL
+c	java:S106E"9Replace this use of System.out or System.err by a logger.(ÎÒı@H°0RMAJORZ
+CODE_SMELL
+d	java:S106G"9Replace this use of System.out or System.err by a logger.(ğÅº¹H±0RMAJORZ
+CODE_SMELL
+c	java:S106M"9Replace this use of System.out or System.err by a logger.(ÎÒı@H²0RMAJORZ
+CODE_SMELL
+d	java:S106O"9Replace this use of System.out or System.err by a logger.(ğÅº¹H³0RMAJORZ
+CODE_SMELL
+i	java:S106W"9Replace this use of System.out or System.err by a logger.(¢Ì£ÜÿÿÿÿÿH´0RMAJORZ
+CODE_SMELL
+d	java:S106X"9Replace this use of System.out or System.err by a logger.(…úÌHµ0RMAJORZ
+CODE_SMELL
+i	java:S106Z"9Replace this use of System.out or System.err by a logger.(Ü©¬˜ûÿÿÿÿH¶0RMAJORZ
+CODE_SMELL
+i	java:S106]"9Replace this use of System.out or System.err by a logger.(ã©¸şÿÿÿÿH·0RMAJORZ
+CODE_SMELL
+e	java:S106Œ"9Replace this use of System.out or System.err by a logger.(…¡ˆÑH¸0RMAJORZ
+CODE_SMELL
+h	java:S125¡"<This block of commented-out lines of code should be removed.(Ö½ËĞH¹0RMAJORZ
+CODE_SMELL
+e	java:S106¨"9Replace this use of System.out or System.err by a logger.(Òî¸‰H½0RMAJORZ
+CODE_SMELL
+e	java:S106®"9Replace this use of System.out or System.err by a logger.(óñ¼¾H¾0RMAJORZ
+CODE_SMELL
+e	java:S106¯"9Replace this use of System.out or System.err by a logger.(Ò¬ğıH¿0RMAJORZ
+CODE_SMELL
+j	java:S106±"9Replace this use of System.out or System.err by a logger.(‡±ßøÿÿÿÿHÀ0RMAJORZ
+CODE_SMELL
+j	java:S106»"9Replace this use of System.out or System.err by a logger.(µŸŸ±ùÿÿÿÿHÁ0RMAJORZ
+CODE_SMELL
+j	java:S106À"9Replace this use of System.out or System.err by a logger.(”Ø’ÃÿÿÿÿÿHÂ0RMAJORZ
+CODE_SMELL
+e	java:S106Â"9Replace this use of System.out or System.err by a logger.(…ê¯HÃ0RMAJORZ
+CODE_SMELL
+e	java:S106Ì"9Replace this use of System.out or System.err by a logger.(Òà´ÇHÄ0RMAJORZ
+CODE_SMELL
+e	java:S106Ø"9Replace this use of System.out or System.err by a logger.(…ê¯HÅ0RMAJORZ
+CODE_SMELL
+h	java:S125İ"<This block of commented-out lines of code should be removed.(æ†ÁŒHÆ0RMAJORZ
+CODE_SMELL
+c
+java:S1128"2Remove this unused import 'org.hibernate.Session'.(È¹›§ùÿÿÿÿHÇ0RMINORZ
+CODE_SMELL
+o
+java:S1128">Remove this unused import 'jakarta.persistence.EntityManager'.(·ïŸéúÿÿÿÿHÉ0RMINORZ
+CODE_SMELL
+g
+java:S1144;";Remove this unused private "findVacantesForSalario" method.(šÿÙHË0RMAJORZ
+CODE_SMELL
+o
+java:S1144C"DRemove this unused private "findVacantesForDestacadoEstatus" method.(†â±;HÍ0RMAJORZ
+CODE_SMELL
+h
+java:S1144K"=Remove this unused private "findByVacantesForEstatus" method.(¶¾·HÏ0RMAJORZ
+CODE_SMELL
+_
+java:S1144S"3Remove this unused private "findUserPerfil" method.(ŠøİØHÑ0RMAJORZ
+CODE_SMELL
+_
+java:S1144a"3Remove this unused private "saveUserPerfil" method.(€Ìà¶HÓ0RMAJORZ
+CODE_SMELL
+l
+java:S1144u";Remove this unused private "savePerfilesAplication" method.(úœş·ıÿÿÿÿHÕ0RMAJORZ
+CODE_SMELL
+Y
+java:S1144 ",Remove this unused private "allData" method.(ÇÏ“ğH×0RMAJORZ
+CODE_SMELL
+c
+java:S1144«"6Remove this unused private "findAllPagination" method.(»ÙÀ¡HÙ0RMAJORZ
+CODE_SMELL
+V
+java:S1144µ")Remove this unused private "save" method.(¦åäîHÛ0RMAJORZ
+CODE_SMELL
+]
+java:S1144½"+Remove this unused private "findId" method.(õ’±ƒøÿÿÿÿHİ0RMAJORZ
+CODE_SMELL
+\
+java:S1144Å"/Remove this unused private "findForIds" method.(‚ù»Hß0RMAJORZ
+CODE_SMELL
+X
+java:S1144Ï"+Remove this unused private "update" method.(¸ñ®ÆHá0RMAJORZ
+CODE_SMELL
+`
+java:S1144Û".Remove this unused private "allDelete" method.(…Ñ‡·ıÿÿÿÿHã0RMAJORZ
+CODE_SMELL

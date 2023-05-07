@@ -1,0 +1,9 @@
+// Call the dataTables jQuery plugin
+$(document).ready(function() {
+  $('#tbl_usuarios').DataTable();
+
+});
+function loadUsers(){
+const rawResponse=awit fetch(){
+}
+}
